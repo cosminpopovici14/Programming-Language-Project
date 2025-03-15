@@ -1,0 +1,91 @@
+%begin class
+obiecte elevi
+{
+    int varsta = 20;
+    string matricol = "RSL197949";
+    int credite;
+    bool restant = false;
+
+    int UpdateCredite(string matr)
+    {
+        credite = 30;
+    } 
+    
+
+}
+
+
+%end class
+
+%begin variables
+char initialaTatalui = ?I?;
+int anulNasterii = 2004;
+bool esteStudent = true;
+int varsta;
+int anulNasteriiColeg = anulNasterii;
+int anCurent = 2025;
+int vector[2];
+%end variables
+
+%begin functions
+
+int calculVarsta(int anulNasterii) 
+    {
+        int test = 3;
+        varsta = anCurent - anulNasterii; 
+
+    }
+
+int altcalcul4(float c)
+{
+    int xy = 4;
+    if( xy > 3)
+    {
+        int xy = 5;
+        string c2 = "bravo";
+    }
+    c = 5.9;
+}
+altcalcul432(float c);
+
+
+%end functions
+
+%begin main 
+
+
+student = new elevi ("CosMat");
+
+
+bool v = false;
+bool w = true;
+obj method UpdateCredite("RSL197239");
+
+
+int x = v;
+int s = 5;
+for(int x=0; x<5; x++;)
+{
+    if(s<10)
+    {
+        int s = 0;
+        s ++;
+    }
+}
+
+
+
+int ab = 10;
+
+
+Print((7 + 5) < ab);
+
+TypeOf(v);
+
+
+
+
+
+
+
+%end main

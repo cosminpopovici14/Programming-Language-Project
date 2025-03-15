@@ -1,0 +1,62 @@
+Scope: global
+Variables:
+char initialaTatalui = I
+int anulNasterii = 2004
+bool esteStudent = 1
+int varsta = NULL
+int anulNasteriiColeg = 2004
+int anCurent = 2025
+bool v = 0
+bool w = 1
+int s = 5
+int x = 0
+int ab = 10
+Functions:
+int calculVarsta(int)
+int altcalcul4(float)
+Classes:
+elevi
+
+Scope: elevi
+Variables:
+int varsta = 20
+string matricol = "RSL197949"
+int credite = NULL
+bool restant = 0
+Functions:
+int UpdateCredite(string)
+Classes:
+
+Scope: UpdateCredite
+Variables:
+Functions:
+Classes:
+
+Scope: calculVarsta
+Variables:
+int test = 3
+Functions:
+Classes:
+
+Scope: altcalcul4
+Variables:
+int xy = 4
+Functions:
+Classes:
+
+Scope: if_block
+Variables:
+string c2 = "bravo"
+Functions:
+Classes:
+
+Scope: for_block
+Variables:
+Functions:
+Classes:
+
+Scope: if_block
+Variables:
+Functions:
+Classes:
+
